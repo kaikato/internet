@@ -1,0 +1,13 @@
+[variant] Loaded new set of variants
+[kit] Successfully loaded 3 kits from /home/kaiykato/.local/share/CMakeTools/cmake-tools-kits.json
+[proc] Executing command: /usr/bin/cmake --version
+[proc] Executing command: /usr/bin/gcc -v
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[main] Configuring project: kaiykato 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -S/home/kaiykato/minnow -B/home/kaiykato/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Building in 'Debug' mode.
+[cmake] -- Configuring done
+[cmake] -- Generating done
+[cmake] -- Build files have been written to: /home/kaiykato/build

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Clang 15.0.7 x86_64-pc-linux-gnu",
+    "compilers": {
+      "C": "/usr/bin/clang",
+      "CXX": "/usr/bin/clang++"
+    }
+  },
+  {
+    "name": "Clang-cl 15.0.7 x86_64-pc-windows-msvc",
+    "compilers": {
+      "C": "/usr/bin/clang-cl-15",
+      "CXX": "/usr/bin/clang-cl-15"
+    }
+  },
+  {
+    "name": "GCC 12.2.0 x86_64-linux-gnu",
+    "compilers": {
+      "C": "/usr/bin/gcc",
+      "CXX": "/usr/bin/g++"
+    }
+  }
+]

@@ -1,0 +1,360 @@
+Start testing: Apr 13 17:01 UTC
+----------------------------------------------------------
+16/18 Testing: compile with optimization
+16/18 Test: compile with optimization
+Command: "/usr/bin/cmake" "--build" "/home/kaiykato/build" "-t" "speed_testing"
+Directory: /home/kaiykato/build
+"compile with optimization" start time: Apr 13 17:01 UTC
+Output:
+----------------------------------------------------------
+Consolidate compiler generated dependencies of target minnow_optimized
+[ 92%] Built target util_optimized
+[115%] Building CXX object src/CMakeFiles/minnow_optimized.dir/reassembler.cc.o
+[284%] Linking CXX static library libminnow_optimized.a
+[300%] Built target minnow_optimized
+[307%] Linking CXX executable reassembler_speed_test
+[315%] Linking CXX executable byte_stream_speed_test
+[346%] Built target reassembler_speed_test
+[369%] Built target byte_stream_speed_test
+[376%] Built target speed_testing
+<end of output>
+Test time =   2.70 sec
+----------------------------------------------------------
+Test Passed.
+"compile with optimization" end time: Apr 13 17:01 UTC
+"compile with optimization" time elapsed: 00:00:02
+----------------------------------------------------------
+
+17/18 Testing: byte_stream_speed_test
+17/18 Test: byte_stream_speed_test
+Command: "/home/kaiykato/build/tests/byte_stream_speed_test"
+Directory: /home/kaiykato/build
+"byte_stream_speed_test" start time: Apr 13 17:01 UTC
+Output:
+----------------------------------------------------------
+ByteStream with capacity=32768, write_size=1500, read_size=128 reached 0.61 Gbit/s.
+<end of output>
+Test time =   0.63 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_speed_test" end time: Apr 13 17:02 UTC
+"byte_stream_speed_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/18 Testing: reassembler_speed_test
+18/18 Test: reassembler_speed_test
+Command: "/home/kaiykato/build/tests/reassembler_speed_test"
+Directory: /home/kaiykato/build
+"reassembler_speed_test" start time: Apr 13 17:01 UTC
+Output:
+----------------------------------------------------------
+Reassembler to ByteStream with capacity=1500 reached 0.35 Gbit/s.
+<end of output>
+Test time =   1.24 sec
+----------------------------------------------------------
+Test Passed.
+"reassembler_speed_test" end time: Apr 13 17:02 UTC
+"reassembler_speed_test" time elapsed: 00:00:01
+----------------------------------------------------------
+
+1/18 Testing: compile with bug-checkers
+1/18 Test: compile with bug-checkers
+Command: "/usr/bin/cmake" "--build" "/home/kaiykato/build" "-t" "functionality_testing" "webget"
+Directory: /home/kaiykato/build
+"compile with bug-checkers" start time: Apr 13 17:01 UTC
+Output:
+----------------------------------------------------------
+[ 38%] Built target util_debug
+[ 53%] Built target minnow_testing_debug
+Consolidate compiler generated dependencies of target minnow_debug
+[107%] Built target minnow_testing_sanitized
+[146%] Built target minnow_debug
+Consolidate compiler generated dependencies of target minnow_sanitized
+[184%] Built target util_sanitized
+[192%] Building CXX object src/CMakeFiles/minnow_sanitized.dir/reassembler.cc.o
+[200%] Linking CXX executable byte_stream_basics
+[207%] Built target byte_stream_basics
+[215%] Linking CXX executable byte_stream_capacity
+[223%] Built target byte_stream_capacity
+[230%] Linking CXX executable byte_stream_one_write
+[238%] Built target byte_stream_one_write
+[246%] Linking CXX executable byte_stream_two_writes
+[253%] Built target byte_stream_two_writes
+[261%] Linking CXX executable byte_stream_many_writes
+[269%] Built target byte_stream_many_writes
+[276%] Linking CXX executable byte_stream_stress_test
+[323%] Linking CXX static library libminnow_sanitized.a
+[330%] Built target byte_stream_stress_test
+[338%] Linking CXX executable reassembler_single
+[361%] Built target minnow_sanitized
+[376%] Linking CXX executable reassembler_cap
+[384%] Built target reassembler_single
+Linking CXX executable reassembler_seq_sanitized
+Built target reassembler_cap
+Linking CXX executable reassembler_seq
+Built target reassembler_seq_sanitized
+Linking CXX executable reassembler_dup_sanitized
+Built target reassembler_seq
+Linking CXX executable reassembler_dup
+Built target reassembler_dup
+Linking CXX executable reassembler_holes_sanitized
+Built target reassembler_dup_sanitized
+Built target reassembler_holes_sanitized
+Linking CXX executable reassembler_holes
+Linking CXX executable reassembler_overlapping_sanitized
+Built target reassembler_holes
+Linking CXX executable reassembler_overlapping
+Built target reassembler_overlapping_sanitized
+Linking CXX executable reassembler_win_sanitized
+Built target reassembler_overlapping
+Linking CXX executable reassembler_win
+Built target reassembler_win
+Built target reassembler_win_sanitized
+Linking CXX executable byte_stream_basics_sanitized
+Linking CXX executable byte_stream_capacity_sanitized
+Built target byte_stream_basics_sanitized
+Built target byte_stream_capacity_sanitized
+Linking CXX executable byte_stream_one_write_sanitized
+Linking CXX executable byte_stream_two_writes_sanitized
+Built target byte_stream_one_write_sanitized
+Linking CXX executable byte_stream_many_writes_sanitized
+Built target byte_stream_two_writes_sanitized
+Linking CXX executable byte_stream_stress_test_sanitized
+Built target byte_stream_many_writes_sanitized
+Linking CXX executable reassembler_single_sanitized
+Built target byte_stream_stress_test_sanitized
+Linking CXX executable reassembler_cap_sanitized
+Built target reassembler_single_sanitized
+Built target reassembler_cap_sanitized
+Built target functionality_testing
+[ 36%] Built target minnow_debug
+[ 81%] Built target util_debug
+[100%] Built target webget
+<end of output>
+Test time =   5.10 sec
+----------------------------------------------------------
+Test Passed.
+"compile with bug-checkers" end time: Apr 13 17:02 UTC
+"compile with bug-checkers" time elapsed: 00:00:05
+----------------------------------------------------------
+
+2/18 Testing: t_webget
+2/18 Test: t_webget
+Command: "/home/kaiykato/minnow/tests/webget_t.sh" "/home/kaiykato/build"
+Directory: /home/kaiykato/build
+"t_webget" start time: Apr 13 17:02 UTC
+Output:
+----------------------------------------------------------
+Function called: get_URL(cs144.keithw.org, /nph-hasher/xyzzy)
+GET /nph-hasher/xyzzy HTTP/1.1
+Host: cs144.keithw.org 
+Connection: close
+
+HTTP/1.1 200 OK
+Content-type: text/plain
+
+7SmXqWkrLKzVBCEalbSPqBcvs11Pw263K7x4Wv3JckI
+<end of output>
+Test time =   0.69 sec
+----------------------------------------------------------
+Test Passed.
+"t_webget" end time: Apr 13 17:02 UTC
+"t_webget" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/18 Testing: reassembler_holes
+13/18 Test: reassembler_holes
+Command: "/home/kaiykato/build/tests/reassembler_holes_sanitized"
+Directory: /home/kaiykato/build
+"reassembler_holes" start time: Apr 13 17:02 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.40 sec
+----------------------------------------------------------
+Test Passed.
+"reassembler_holes" end time: Apr 13 17:02 UTC
+"reassembler_holes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/18 Testing: byte_stream_many_writes
+7/18 Test: byte_stream_many_writes
+Command: "/home/kaiykato/build/tests/byte_stream_many_writes_sanitized"
+Directory: /home/kaiykato/build
+"byte_stream_many_writes" start time: Apr 13 17:02 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_many_writes" end time: Apr 13 17:02 UTC
+"byte_stream_many_writes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/18 Testing: reassembler_single
+9/18 Test: reassembler_single
+Command: "/home/kaiykato/build/tests/reassembler_single_sanitized"
+Directory: /home/kaiykato/build
+"reassembler_single" start time: Apr 13 17:02 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"reassembler_single" end time: Apr 13 17:02 UTC
+"reassembler_single" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/18 Testing: reassembler_dup
+12/18 Test: reassembler_dup
+Command: "/home/kaiykato/build/tests/reassembler_dup_sanitized"
+Directory: /home/kaiykato/build
+"reassembler_dup" start time: Apr 13 17:02 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.53 sec
+----------------------------------------------------------
+Test Passed.
+"reassembler_dup" end time: Apr 13 17:02 UTC
+"reassembler_dup" time elapsed: 00:00:01
+----------------------------------------------------------
+
+8/18 Testing: byte_stream_stress_test
+8/18 Test: byte_stream_stress_test
+Command: "/home/kaiykato/build/tests/byte_stream_stress_test_sanitized"
+Directory: /home/kaiykato/build
+"byte_stream_stress_test" start time: Apr 13 17:02 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_stress_test" end time: Apr 13 17:02 UTC
+"byte_stream_stress_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/18 Testing: reassembler_overlapping
+14/18 Test: reassembler_overlapping
+Command: "/home/kaiykato/build/tests/reassembler_overlapping_sanitized"
+Directory: /home/kaiykato/build
+"reassembler_overlapping" start time: Apr 13 17:02 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"reassembler_overlapping" end time: Apr 13 17:02 UTC
+"reassembler_overlapping" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/18 Testing: byte_stream_one_write
+5/18 Test: byte_stream_one_write
+Command: "/home/kaiykato/build/tests/byte_stream_one_write_sanitized"
+Directory: /home/kaiykato/build
+"byte_stream_one_write" start time: Apr 13 17:02 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_one_write" end time: Apr 13 17:02 UTC
+"byte_stream_one_write" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/18 Testing: byte_stream_two_writes
+6/18 Test: byte_stream_two_writes
+Command: "/home/kaiykato/build/tests/byte_stream_two_writes_sanitized"
+Directory: /home/kaiykato/build
+"byte_stream_two_writes" start time: Apr 13 17:02 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_two_writes" end time: Apr 13 17:02 UTC
+"byte_stream_two_writes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/18 Testing: byte_stream_capacity
+4/18 Test: byte_stream_capacity
+Command: "/home/kaiykato/build/tests/byte_stream_capacity_sanitized"
+Directory: /home/kaiykato/build
+"byte_stream_capacity" start time: Apr 13 17:02 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_capacity" end time: Apr 13 17:02 UTC
+"byte_stream_capacity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/18 Testing: reassembler_cap
+10/18 Test: reassembler_cap
+Command: "/home/kaiykato/build/tests/reassembler_cap_sanitized"
+Directory: /home/kaiykato/build
+"reassembler_cap" start time: Apr 13 17:02 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"reassembler_cap" end time: Apr 13 17:02 UTC
+"reassembler_cap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/18 Testing: byte_stream_basics
+3/18 Test: byte_stream_basics
+Command: "/home/kaiykato/build/tests/byte_stream_basics_sanitized"
+Directory: /home/kaiykato/build
+"byte_stream_basics" start time: Apr 13 17:02 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_basics" end time: Apr 13 17:02 UTC
+"byte_stream_basics" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/18 Testing: reassembler_seq
+11/18 Test: reassembler_seq
+Command: "/home/kaiykato/build/tests/reassembler_seq_sanitized"
+Directory: /home/kaiykato/build
+"reassembler_seq" start time: Apr 13 17:02 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   4.15 sec
+----------------------------------------------------------
+Test Passed.
+"reassembler_seq" end time: Apr 13 17:02 UTC
+"reassembler_seq" time elapsed: 00:00:04
+----------------------------------------------------------
+
+15/18 Testing: reassembler_win
+15/18 Test: reassembler_win
+Command: "/home/kaiykato/build/tests/reassembler_win_sanitized"
+Directory: /home/kaiykato/build
+"reassembler_win" start time: Apr 13 17:02 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  52.73 sec
+----------------------------------------------------------
+Test Passed.
+"reassembler_win" end time: Apr 13 17:02 UTC
+"reassembler_win" time elapsed: 00:00:52
+----------------------------------------------------------
+
+End testing: Apr 13 17:02 UTC

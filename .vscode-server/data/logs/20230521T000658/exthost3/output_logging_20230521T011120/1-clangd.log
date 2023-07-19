@@ -1,0 +1,279 @@
+I[01:11:22.149] Ubuntu clangd version 15.0.7
+I[01:11:22.161] Features: linux+grpc
+I[01:11:22.161] PID: 11700
+I[01:11:22.161] Working directory: /home/kaiykato
+I[01:11:22.161] argv[0]: /usr/bin/clangd
+I[01:11:22.162] Starting LSP over stdin/stdout
+I[01:11:22.162] <-- initialize(0)
+I[01:11:22.163] --> reply:initialize(0) 0 ms
+I[01:11:22.266] <-- initialized
+I[01:11:22.298] <-- textDocument/didOpen
+I[01:11:22.305] Loaded compilation database from /home/kaiykato/minnow/compile_commands.json
+I[01:11:22.306] ASTWorker building file /home/kaiykato/minnow/src/network_interface.cc version 1 with command 
+[/home/kaiykato/minnow/build/src]
+/usr/bin/c++ --driver-mode=g++ -I/home/kaiykato/minnow/util -I/home/kaiykato/minnow/src -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -o CMakeFiles/minnow_debug.dir/network_interface.cc.o -c -resource-dir=/usr/lib/llvm-15/lib/clang/15.0.7 -- /home/kaiykato/minnow/src/network_interface.cc
+I[01:11:22.306] --> window/workDoneProgress/create(0)
+I[01:11:22.306] Enqueueing 51 commands for indexing
+I[01:11:22.308] <-- textDocument/didOpen
+I[01:11:22.315] --> textDocument/clangd.fileStatus
+I[01:11:22.319] --> textDocument/clangd.fileStatus
+I[01:11:22.377] <-- reply(0)
+I[01:11:22.377] --> $/progress
+I[01:11:22.377] --> $/progress
+I[01:11:22.794] --> $/progress
+I[01:11:22.794] --> $/progress
+I[01:11:22.794] --> $/progress
+I[01:11:23.214] <-- textDocument/documentSymbol(1)
+I[01:11:23.214] <-- textDocument/documentSymbol(2)
+I[01:11:23.215] <-- textDocument/codeAction(3)
+I[01:11:23.215] <-- textDocument/codeAction(4)
+I[01:11:23.257] <-- textDocument/documentLink(5)
+I[01:11:23.257] <-- textDocument/documentLink(6)
+I[01:11:23.258] <-- textDocument/inlayHint(7)
+I[01:11:23.258] <-- textDocument/inlayHint(8)
+I[01:11:23.361] <-- textDocument/semanticTokens/full(9)
+I[01:11:23.361] <-- textDocument/semanticTokens/full(10)
+I[01:11:23.820] <-- $/setTrace
+I[01:11:23.820] unhandled notification $/setTrace
+I[01:11:23.854] <-- $/setTrace
+I[01:11:23.854] unhandled notification $/setTrace
+I[01:11:23.864] <-- $/setTrace
+I[01:11:23.864] unhandled notification $/setTrace
+I[01:11:24.480] <-- $/cancelRequest
+I[01:11:24.480] <-- $/cancelRequest
+I[01:11:24.480] <-- textDocument/documentSymbol(11)
+I[01:11:24.480] <-- textDocument/documentSymbol(12)
+I[01:11:24.596] --> workspace/semanticTokens/refresh(1)
+I[01:11:24.596] --> textDocument/clangd.fileStatus
+I[01:11:24.641] <-- reply(1)
+I[01:11:25.086] --> textDocument/publishDiagnostics
+I[01:11:25.087] ASTWorker building file /home/kaiykato/minnow/src/network_interface.hh version 1 with command inferred from /home/kaiykato/minnow/src/network_interface.cc
+[/home/kaiykato/minnow/build/src]
+/usr/bin/c++ --driver-mode=g++ -I/home/kaiykato/minnow/util -I/home/kaiykato/minnow/src -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -c -resource-dir=/usr/lib/llvm-15/lib/clang/15.0.7 -std=gnu++20 -- /home/kaiykato/minnow/src/network_interface.hh
+I[01:11:25.088] --> textDocument/clangd.fileStatus
+I[01:11:25.094] --> textDocument/clangd.fileStatus
+I[01:11:25.290] <-- $/cancelRequest
+I[01:11:25.290] <-- $/cancelRequest
+I[01:11:25.302] <-- textDocument/documentLink(13)
+I[01:11:25.302] <-- textDocument/documentLink(14)
+I[01:11:25.373] <-- $/cancelRequest
+I[01:11:25.373] <-- $/cancelRequest
+I[01:11:25.373] <-- $/cancelRequest
+I[01:11:25.373] <-- $/cancelRequest
+I[01:11:25.373] <-- textDocument/documentSymbol(15)
+I[01:11:25.374] <-- textDocument/documentSymbol(16)
+I[01:11:25.379] <-- textDocument/documentLink(17)
+I[01:11:25.379] <-- textDocument/documentLink(18)
+I[01:11:26.423] Indexed /home/kaiykato/minnow/src/network_interface.cc (18 symbols, 12675 refs, 311 files)
+I[01:11:26.430] --> $/progress
+I[01:11:26.431] --> $/progress
+I[01:11:26.874] --> workspace/semanticTokens/refresh(2)
+I[01:11:26.874] --> textDocument/clangd.fileStatus
+I[01:11:26.874] --> textDocument/clangd.fileStatus
+I[01:11:26.876] <-- reply(2)
+I[01:11:27.082] --> textDocument/publishDiagnostics
+I[01:11:27.082] --> reply:textDocument/documentSymbol(1) 3867 ms, error: Task was cancelled.
+I[01:11:27.082] --> reply:textDocument/codeAction(3) 3867 ms
+I[01:11:27.082] --> reply:textDocument/documentLink(5) 3824 ms, error: Task was cancelled.
+[Error - 1:11:27 AM] Request textDocument/documentSymbol failed.
+[object Object]
+I[01:11:27.082] --> reply:textDocument/inlayHint(7) 3824 ms
+I[01:11:27.083] --> reply:textDocument/semanticTokens/full(9) 3722 ms
+I[01:11:27.083] --> reply:textDocument/documentSymbol(11) 2603 ms, error: Task was cancelled.
+I[01:11:27.083] --> reply:textDocument/documentLink(13) 1781 ms, error: Task was cancelled.
+I[01:11:27.084] --> reply:textDocument/documentSymbol(15) 1710 ms
+I[01:11:27.084] --> reply:textDocument/documentLink(17) 1705 ms
+I[01:11:27.084] --> textDocument/clangd.fileStatus
+I[01:11:27.084] --> reply:textDocument/documentSymbol(2) 3869 ms, error: Task was cancelled.
+I[01:11:27.084] --> reply:textDocument/codeAction(4) 3869 ms
+I[01:11:27.084] --> reply:textDocument/documentLink(6) 3826 ms, error: Task was cancelled.
+I[01:11:27.084] --> reply:textDocument/inlayHint(8) 3826 ms
+I[01:11:27.084] --> reply:textDocument/semanticTokens/full(10) 3723 ms
+I[01:11:27.084] --> reply:textDocument/documentSymbol(12) 2603 ms, error: Task was cancelled.
+I[01:11:27.084] --> reply:textDocument/documentLink(14) 1782 ms, error: Task was cancelled.
+I[01:11:27.085] --> reply:textDocument/documentSymbol(16) 1711 ms
+I[01:11:27.085] --> reply:textDocument/documentLink(18) 1706 ms
+I[01:11:27.085] --> textDocument/clangd.fileStatus
+[Error - 1:11:27 AM] Request textDocument/documentLink failed.
+[object Object]
+[Error - 1:11:27 AM] Request textDocument/documentSymbol failed.
+[object Object]
+[Error - 1:11:27 AM] Request textDocument/documentLink failed.
+[object Object]
+[Error - 1:11:27 AM] Request textDocument/documentSymbol failed.
+[object Object]
+[Error - 1:11:27 AM] Request textDocument/documentLink failed.
+[object Object]
+[Error - 1:11:27 AM] Request textDocument/documentSymbol failed.
+[object Object]
+[Error - 1:11:27 AM] Request textDocument/documentLink failed.
+[object Object]
+I[01:11:27.945] Indexed /home/kaiykato/minnow/tests/net_interface.cc (0 symbols, 13805 refs, 346 files)
+I[01:11:28.021] --> $/progress
+I[01:11:28.152] <-- textDocument/inlayHint(19)
+I[01:11:28.153] --> reply:textDocument/inlayHint(19) 0 ms
+I[01:11:28.153] --> textDocument/clangd.fileStatus
+I[01:11:31.770] <-- textDocument/inlayHint(20)
+I[01:11:31.771] --> reply:textDocument/inlayHint(20) 0 ms
+I[01:11:31.771] --> textDocument/clangd.fileStatus
+I[01:11:34.358] <-- textDocument/inlayHint(21)
+I[01:11:34.358] --> reply:textDocument/inlayHint(21) 0 ms
+I[01:11:34.359] --> textDocument/clangd.fileStatus
+I[01:11:35.850] <-- textDocument/hover(22)
+I[01:11:35.851] --> reply:textDocument/hover(22) 1 ms
+I[01:11:35.851] --> textDocument/clangd.fileStatus
+I[01:11:37.207] <-- textDocument/hover(23)
+I[01:11:37.207] --> reply:textDocument/hover(23) 0 ms
+I[01:11:37.208] --> textDocument/clangd.fileStatus
+I[01:11:37.788] <-- textDocument/hover(24)
+I[01:11:37.789] --> reply:textDocument/hover(24) 0 ms
+I[01:11:37.789] --> textDocument/clangd.fileStatus
+I[01:11:40.325] <-- textDocument/inlayHint(25)
+I[01:11:40.326] --> reply:textDocument/inlayHint(25) 0 ms
+I[01:11:40.326] --> textDocument/clangd.fileStatus
+I[01:11:44.125] <-- textDocument/inlayHint(26)
+I[01:11:44.126] --> reply:textDocument/inlayHint(26) 0 ms
+I[01:11:44.126] --> textDocument/clangd.fileStatus
+I[01:11:44.932] <-- textDocument/inlayHint(27)
+I[01:11:44.932] --> reply:textDocument/inlayHint(27) 0 ms
+I[01:11:44.933] --> textDocument/clangd.fileStatus
+I[01:11:48.713] <-- textDocument/inlayHint(28)
+I[01:11:48.713] --> reply:textDocument/inlayHint(28) 0 ms
+I[01:11:48.714] --> textDocument/clangd.fileStatus
+I[01:11:48.896] <-- textDocument/inlayHint(29)
+I[01:11:48.897] --> reply:textDocument/inlayHint(29) 0 ms
+I[01:11:48.897] --> textDocument/clangd.fileStatus
+I[01:11:48.983] <-- textDocument/inlayHint(30)
+I[01:11:48.983] --> reply:textDocument/inlayHint(30) 0 ms
+I[01:11:48.983] --> textDocument/clangd.fileStatus
+I[01:11:49.896] <-- textDocument/inlayHint(31)
+I[01:11:49.896] --> reply:textDocument/inlayHint(31) 0 ms
+I[01:11:49.896] --> textDocument/clangd.fileStatus
+I[01:11:50.009] <-- textDocument/inlayHint(32)
+I[01:11:50.009] --> reply:textDocument/inlayHint(32) 0 ms
+I[01:11:50.009] --> textDocument/clangd.fileStatus
+I[01:11:50.272] <-- textDocument/inlayHint(33)
+I[01:11:50.272] --> reply:textDocument/inlayHint(33) 0 ms
+I[01:11:50.272] --> textDocument/clangd.fileStatus
+I[01:11:50.422] <-- textDocument/inlayHint(34)
+I[01:11:50.422] --> reply:textDocument/inlayHint(34) 0 ms
+I[01:11:50.422] --> textDocument/clangd.fileStatus
+I[01:11:52.304] <-- textDocument/inlayHint(35)
+I[01:11:52.305] --> reply:textDocument/inlayHint(35) 0 ms
+I[01:11:52.305] --> textDocument/clangd.fileStatus
+I[01:11:52.674] <-- textDocument/inlayHint(36)
+I[01:11:52.675] --> reply:textDocument/inlayHint(36) 0 ms
+I[01:11:52.675] --> textDocument/clangd.fileStatus
+I[01:11:53.629] <-- textDocument/inlayHint(37)
+I[01:11:53.629] --> reply:textDocument/inlayHint(37) 0 ms
+I[01:11:53.629] --> textDocument/clangd.fileStatus
+I[01:11:53.925] <-- textDocument/inlayHint(38)
+I[01:11:53.925] --> reply:textDocument/inlayHint(38) 0 ms
+I[01:11:53.925] --> textDocument/clangd.fileStatus
+I[01:11:55.301] <-- textDocument/inlayHint(39)
+I[01:11:55.302] --> reply:textDocument/inlayHint(39) 0 ms
+I[01:11:55.302] --> textDocument/clangd.fileStatus
+I[01:11:55.358] <-- textDocument/inlayHint(40)
+I[01:11:55.359] --> reply:textDocument/inlayHint(40) 0 ms
+I[01:11:55.359] --> textDocument/clangd.fileStatus
+I[01:11:55.407] <-- textDocument/inlayHint(41)
+I[01:11:55.407] --> reply:textDocument/inlayHint(41) 0 ms
+I[01:11:55.407] --> textDocument/clangd.fileStatus
+I[01:11:55.456] <-- textDocument/inlayHint(42)
+I[01:11:55.457] --> reply:textDocument/inlayHint(42) 0 ms
+I[01:11:55.457] --> textDocument/clangd.fileStatus
+I[01:11:55.505] <-- textDocument/inlayHint(43)
+I[01:11:55.506] --> reply:textDocument/inlayHint(43) 0 ms
+I[01:11:55.506] --> textDocument/clangd.fileStatus
+I[01:11:55.557] <-- textDocument/inlayHint(44)
+I[01:11:55.558] --> reply:textDocument/inlayHint(44) 0 ms
+I[01:11:55.558] --> textDocument/clangd.fileStatus
+I[01:11:55.607] <-- textDocument/inlayHint(45)
+I[01:11:55.607] --> reply:textDocument/inlayHint(45) 0 ms
+I[01:11:55.607] --> textDocument/clangd.fileStatus
+I[01:11:55.659] <-- textDocument/inlayHint(46)
+I[01:11:55.659] --> reply:textDocument/inlayHint(46) 0 ms
+I[01:11:55.659] --> textDocument/clangd.fileStatus
+I[01:11:55.717] <-- textDocument/inlayHint(47)
+I[01:11:55.718] --> reply:textDocument/inlayHint(47) 0 ms
+I[01:11:55.718] --> textDocument/clangd.fileStatus
+I[01:11:55.768] <-- textDocument/inlayHint(48)
+I[01:11:55.768] --> reply:textDocument/inlayHint(48) 0 ms
+I[01:11:55.769] --> textDocument/clangd.fileStatus
+I[01:11:55.818] <-- textDocument/inlayHint(49)
+I[01:11:55.818] --> reply:textDocument/inlayHint(49) 0 ms
+I[01:11:55.819] --> textDocument/clangd.fileStatus
+I[01:11:55.871] <-- textDocument/inlayHint(50)
+I[01:11:55.872] --> reply:textDocument/inlayHint(50) 0 ms
+I[01:11:55.872] --> textDocument/clangd.fileStatus
+I[01:11:55.949] <-- textDocument/inlayHint(51)
+I[01:11:55.950] --> reply:textDocument/inlayHint(51) 0 ms
+I[01:11:55.950] --> textDocument/clangd.fileStatus
+I[01:11:56.029] <-- textDocument/inlayHint(52)
+I[01:11:56.030] --> reply:textDocument/inlayHint(52) 0 ms
+I[01:11:56.030] --> textDocument/clangd.fileStatus
+I[01:11:56.118] <-- textDocument/inlayHint(53)
+I[01:11:56.119] --> reply:textDocument/inlayHint(53) 0 ms
+I[01:11:56.119] --> textDocument/clangd.fileStatus
+I[01:11:56.183] <-- textDocument/inlayHint(54)
+I[01:11:56.184] --> reply:textDocument/inlayHint(54) 0 ms
+I[01:11:56.184] --> textDocument/clangd.fileStatus
+I[01:11:56.243] <-- textDocument/inlayHint(55)
+I[01:11:56.243] --> reply:textDocument/inlayHint(55) 0 ms
+I[01:11:56.244] --> textDocument/clangd.fileStatus
+I[01:11:56.417] <-- textDocument/inlayHint(56)
+I[01:11:56.417] --> reply:textDocument/inlayHint(56) 0 ms
+I[01:11:56.417] --> textDocument/clangd.fileStatus
+I[01:11:56.454] <-- textDocument/inlayHint(57)
+I[01:11:56.454] --> reply:textDocument/inlayHint(57) 0 ms
+I[01:11:56.454] --> textDocument/clangd.fileStatus
+I[01:11:56.506] <-- textDocument/inlayHint(58)
+I[01:11:56.506] --> reply:textDocument/inlayHint(58) 0 ms
+I[01:11:56.507] --> textDocument/clangd.fileStatus
+I[01:11:56.555] <-- textDocument/inlayHint(59)
+I[01:11:56.556] --> reply:textDocument/inlayHint(59) 0 ms
+I[01:11:56.556] --> textDocument/clangd.fileStatus
+I[01:11:56.606] <-- textDocument/inlayHint(60)
+I[01:11:56.607] --> reply:textDocument/inlayHint(60) 0 ms
+I[01:11:56.607] --> textDocument/clangd.fileStatus
+I[01:11:56.789] <-- textDocument/inlayHint(61)
+I[01:11:56.789] --> reply:textDocument/inlayHint(61) 0 ms
+I[01:11:56.789] --> textDocument/clangd.fileStatus
+I[01:11:57.079] <-- textDocument/inlayHint(62)
+I[01:11:57.080] --> reply:textDocument/inlayHint(62) 0 ms
+I[01:11:57.080] --> textDocument/clangd.fileStatus
+I[01:11:57.176] <-- textDocument/inlayHint(63)
+I[01:11:57.176] --> reply:textDocument/inlayHint(63) 0 ms
+I[01:11:57.176] --> textDocument/clangd.fileStatus
+I[01:11:57.973] <-- textDocument/inlayHint(64)
+I[01:11:57.974] --> reply:textDocument/inlayHint(64) 0 ms
+I[01:11:57.974] --> textDocument/clangd.fileStatus
+I[01:11:58.041] <-- textDocument/inlayHint(65)
+I[01:11:58.042] --> reply:textDocument/inlayHint(65) 0 ms
+I[01:11:58.042] --> textDocument/clangd.fileStatus
+I[01:11:58.208] <-- textDocument/inlayHint(66)
+I[01:11:58.208] --> reply:textDocument/inlayHint(66) 0 ms
+I[01:11:58.208] --> textDocument/clangd.fileStatus
+I[01:11:59.041] <-- textDocument/inlayHint(67)
+I[01:11:59.042] --> reply:textDocument/inlayHint(67) 0 ms
+I[01:11:59.042] --> textDocument/clangd.fileStatus
+I[01:11:59.094] <-- textDocument/inlayHint(68)
+I[01:11:59.094] --> reply:textDocument/inlayHint(68) 0 ms
+I[01:11:59.094] --> textDocument/clangd.fileStatus
+I[01:11:59.188] <-- textDocument/inlayHint(69)
+I[01:11:59.189] --> reply:textDocument/inlayHint(69) 0 ms
+I[01:11:59.189] --> textDocument/clangd.fileStatus
+I[01:11:59.289] <-- textDocument/inlayHint(70)
+I[01:11:59.290] --> reply:textDocument/inlayHint(70) 0 ms
+I[01:11:59.290] --> textDocument/clangd.fileStatus
+I[01:11:59.379] <-- textDocument/inlayHint(71)
+I[01:11:59.380] --> reply:textDocument/inlayHint(71) 0 ms
+I[01:11:59.380] --> textDocument/clangd.fileStatus
+I[01:11:59.556] <-- textDocument/inlayHint(72)
+I[01:11:59.557] --> reply:textDocument/inlayHint(72) 0 ms
+I[01:11:59.557] --> textDocument/clangd.fileStatus
+I[01:12:01.675] <-- textDocument/inlayHint(73)
+I[01:12:01.676] --> reply:textDocument/inlayHint(73) 0 ms
+I[01:12:01.676] --> textDocument/clangd.fileStatus
+I[01:28:00.833] <-- $/setTrace
+I[01:28:00.833] unhandled notification $/setTrace

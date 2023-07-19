@@ -1,0 +1,361 @@
+[2023-05-21 00:07:13.226] [exthost] [info] Extension host with pid 1548 started
+[2023-05-21 00:07:13.238] [exthost] [info] Lock '/home/kaiykato/.vscode-server/data/User/workspaceStorage/d16a1b7f8865348bde3e3163a3d97865/vscode.lock': Lock acquired.
+[2023-05-21 00:07:13.706] [exthost] [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:cpp'
+[2023-05-21 00:07:13.841] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+[2023-05-21 00:07:14.007] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-05-21 00:07:14.010] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-05-21 00:07:14.014] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-05-21 00:07:14.771] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-05-21 00:07:14.831] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-05-21 00:07:15.509] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: true, activationEvent: 'workspaceContains:*/CMakeLists.txt,*/*/CMakeLists.txt,*/*/*/CMakeLists.txt'
+[2023-05-21 00:07:15.957] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2023-05-21 00:07:15.968] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2023-05-21 00:07:15.991] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2023-05-21 00:07:16.080] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2023-05-21 00:07:16.310] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2023-05-21 00:07:17.953] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-05-21 00:07:17.986] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-05-21 00:07:17.992] [exthost] [info] Eager extensions activated
+[2023-05-21 00:07:18.512] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:07:18.512] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:07:18.515] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:07:18.515] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:07:18.516] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:07:18.516] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:07:18.521] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:07:18.521] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:07:20.833] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:07:20.833] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:07:20.834] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:07:20.834] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:07:20.839] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:07:20.839] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:07:20.839] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:07:20.839] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:07:20.841] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:07:20.841] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:07:20.843] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:07:20.843] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:08:14.587] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:08:14.587] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:08:20.255] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:08:20.255] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:08:23.950] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:08:23.950] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:08:40.116] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:08:40.116] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:09:05.250] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:09:05.250] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:09:07.981] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:09:07.981] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:09:11.460] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:09:11.460] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:09:11.460] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:09:11.460] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:09:13.746] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:09:13.746] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:09:14.976] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:09:14.976] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:09:16.013] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:09:16.013] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:09:25.670] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:09:25.670] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:09:25.671] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:09:25.671] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:09:27.616] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:09:27.616] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:10:24.429] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:10:24.429] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:10:27.930] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:10:27.930] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:10:27.931] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:10:27.931] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:10:39.428] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:10:39.428] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:10:56.911] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:10:56.911] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:13:54.792] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:13:54.792] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:13:54.793] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:13:54.794] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:14:32.791] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:14:32.791] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:14:41.566] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:14:41.566] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:14:41.567] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:14:41.567] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:14:58.651] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:14:58.651] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:14:58.652] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:14:58.652] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:14:58.652] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:14:58.653] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:15:13.446] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:15:13.446] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:15:37.455] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:15:37.455] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:15:58.745] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:15:58.745] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:16:00.688] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:00.688] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:16:02.111] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:02.111] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:16:04.080] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:04.080] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:16:04.810] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:04.810] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:16:06.298] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:06.298] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:16:07.212] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:07.212] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:16:07.212] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:07.212] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:16:08.784] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:08.784] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:16:12.398] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:12.398] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:16:13.121] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:13.121] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:16:13.456] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:13.456] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:16:13.456] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:13.456] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:16:14.365] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:14.365] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:16:15.673] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:15.673] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:16:17.549] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:17.549] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:16:38.319] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:38.320] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:16:45.669] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:45.669] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:16:48.341] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:48.341] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:16:50.906] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:50.906] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:16:51.319] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:51.319] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:16:52.423] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:52.423] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:16:53.222] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:53.223] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:16:54.584] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:16:54.584] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:19:33.585] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:19:33.585] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:20:32.615] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:20:32.615] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:20:33.558] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:20:33.559] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:20:33.559] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:20:33.559] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:20:33.559] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:20:33.559] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:20:57.438] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:20:57.438] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:20:57.438] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:20:57.438] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:21:05.415] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:05.416] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:21:08.840] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:08.840] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:21:09.336] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:09.336] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:21:09.822] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:09.822] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:21:09.822] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:09.822] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:21:09.895] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:09.895] [exthost] [error] TypeError: Cannot read properties of null (reading 'items')
+	at mp.<anonymous> (/home/kaiykato/.vscode-server/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.24/out/bundle.js:240:10464)
+	at Generator.next (<anonymous>)
+	at o (/home/kaiykato/.vscode-server/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.24/out/bundle.js:1:1098)
+[2023-05-21 00:21:10.079] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:10.079] [exthost] [error] TypeError: Cannot read properties of null (reading 'items')
+	at mp.<anonymous> (/home/kaiykato/.vscode-server/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.24/out/bundle.js:240:10464)
+	at Generator.next (<anonymous>)
+	at o (/home/kaiykato/.vscode-server/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.24/out/bundle.js:1:1098)
+[2023-05-21 00:21:10.197] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:10.197] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:21:10.197] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:10.197] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:21:10.493] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:10.493] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:21:10.604] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:10.604] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:21:10.823] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:10.823] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:21:10.935] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:10.935] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:21:12.183] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:12.183] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:21:12.184] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:12.184] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:21:12.184] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:12.184] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:21:12.185] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:12.185] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:21:12.776] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:12.776] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:21:12.776] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:12.776] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:21:13.094] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:13.094] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:21:16.213] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:21:16.213] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:22:11.875] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:22:11.875] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:22:14.463] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:22:14.463] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:23:50.036] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:23:50.036] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:23:56.814] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:23:56.814] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:23:59.424] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:23:59.424] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:24:01.396] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:01.396] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:24:02.224] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:02.224] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:24:02.224] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:02.224] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:24:11.537] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:11.537] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:24:14.134] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:14.134] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:24:18.541] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:18.541] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:24:34.049] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:34.049] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:24:39.142] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:39.142] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:24:39.372] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:39.372] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:24:39.757] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:39.757] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:24:39.757] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:39.758] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:24:39.758] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:39.758] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:24:41.504] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:41.504] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:24:41.504] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:41.504] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:24:41.833] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:41.833] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:24:43.448] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:43.448] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:24:45.893] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:45.893] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:24:45.893] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:45.893] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:24:48.438] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:48.438] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:24:48.809] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:48.809] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:24:49.935] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:49.935] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:24:49.935] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:24:49.936] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:25:10.602] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:25:10.602] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:25:10.978] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:25:10.978] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:25:11.295] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:25:11.295] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:28:28.384] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:28:28.384] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:28:31.361] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:28:31.361] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:28:32.179] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:28:32.179] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:30:22.538] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:30:22.538] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:30:23.192] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:30:23.192] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:30:58.792] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:30:58.792] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:31:00.921] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:00.921] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:31:04.978] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:04.978] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:31:04.978] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:04.978] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:31:05.744] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:05.744] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:31:05.744] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:05.744] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:31:08.633] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:08.633] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:31:11.239] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:11.239] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:31:14.837] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:14.837] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:31:18.775] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:18.775] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:31:18.974] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:18.974] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:31:18.989] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:18.989] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:31:19.271] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:19.271] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:31:20.494] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:20.494] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:31:20.494] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:20.494] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:31:20.494] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:20.494] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:31:20.852] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:20.852] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:31:34.733] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:34.733] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:31:35.203] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:35.203] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:31:37.357] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:37.357] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:31:48.032] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:48.032] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:31:58.458] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:31:58.458] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:33:41.509] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:33:41.509] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:33:42.718] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:33:42.718] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:33:44.559] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:33:44.559] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:33:44.967] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:33:44.967] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:33:45.261] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:33:45.261] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:33:47.888] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:33:47.888] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:33:47.888] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:33:47.888] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:35:30.637] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:35:30.637] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:36:05.270] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:36:05.270] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:36:09.807] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:36:09.807] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:36:09.807] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:36:09.807] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:36:25.508] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:36:25.508] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:36:28.079] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:36:28.079] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:38:22.209] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:38:22.209] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 00:38:31.217] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:38:31.217] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:38:31.509] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:38:31.509] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:38:33.729] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:38:33.729] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:38:43.326] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:38:43.326] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"element":{"subscription":{}},"next":{},"prev":{}},"_last":{"element":{"subscription":{}},"next":{},"prev":{}},"_size":1}}}
+[2023-05-21 00:38:44.606] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2023-05-21 00:38:44.606] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2023-05-21 01:16:19.282] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2023-05-21 01:16:19.283] [exthost] [info] Lock '/home/kaiykato/.vscode-server/data/User/workspaceStorage/d16a1b7f8865348bde3e3163a3d97865/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-05-21 01:16:19.306] [exthost] [info] Extension host with pid 1548 exiting with code 0

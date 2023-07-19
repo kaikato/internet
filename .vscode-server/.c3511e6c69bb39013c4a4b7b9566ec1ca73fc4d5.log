@@ -1,0 +1,39 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:42395 (IPv4)
+Extension host agent listening on 42395
+
+[14:54:01] Extension host agent started.
+[14:54:01] [127.0.0.1][065ff993][ManagementConnection] New connection established.
+[14:54:02] [127.0.0.1][e730532c][ExtensionHostConnection] New connection established.
+[14:54:02] [127.0.0.1][e730532c][ExtensionHostConnection] <1106> Launched Extension Host Process.
+[14:54:06] Getting Manifest... ms-vscode.cmake-tools
+[14:54:06] Getting Manifest... ms-vscode.cpptools
+[14:54:06] Installing extension: ms-vscode.cmake-tools
+[14:54:06] Installing extension: ms-vscode.cpptools
+[14:54:07] Downloaded extension: ms-vscode.cmake-tools /home/kaiykato/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.cmake-tools-1.14.34
+[14:54:08] Downloaded extension: ms-vscode.cpptools /home/kaiykato/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.cpptools-1.16.3-linux-x64
+[14:54:08] Extracted extension to /home/kaiykato/.vscode-server/extensions/.45160968-4739-4aaf-87ad-93046cfe845d: ms-vscode.cmake-tools
+[14:54:08] Renamed to /home/kaiykato/.vscode-server/extensions/ms-vscode.cmake-tools-1.14.34
+[14:54:08] Extracting completed. ms-vscode.cmake-tools
+[14:54:08] Extension installed successfully: ms-vscode.cmake-tools
+[14:54:10] [127.0.0.1][065ff993][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[14:54:10] [127.0.0.1][e730532c][ExtensionHostConnection] <1106> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[14:54:10] Last EH closed, waiting before shutting down
+[14:54:12] Extracted extension to /home/kaiykato/.vscode-server/extensions/.fb38e38b-3919-437f-bfc1-6016b79ebd94: ms-vscode.cpptools
+[14:54:12] Renamed to /home/kaiykato/.vscode-server/extensions/ms-vscode.cpptools-1.16.3-linux-x64
+[14:54:12] Extracting completed. ms-vscode.cpptools
+[14:54:12] Extension installed successfully: ms-vscode.cpptools
+Got delay-shutdown request while in shutdown timeout, delaying
+[14:54:17] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[14:54:17] Cancelling previous shutdown timeout
+[14:54:17] [127.0.0.1][9fbfd587][ManagementConnection] New connection established.
+[14:54:18] [127.0.0.1][da19d66f][ExtensionHostConnection] New connection established.
+[14:54:18] [127.0.0.1][da19d66f][ExtensionHostConnection] <1844> Launched Extension Host Process.

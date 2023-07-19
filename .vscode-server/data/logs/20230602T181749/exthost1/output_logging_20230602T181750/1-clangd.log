@@ -1,0 +1,113 @@
+I[18:17:52.940] Ubuntu clangd version 15.0.7
+I[18:17:52.940] Features: linux+grpc
+I[18:17:52.940] PID: 1220
+I[18:17:52.940] Working directory: /home/kaiykato
+I[18:17:52.940] argv[0]: /usr/bin/clangd
+I[18:17:52.949] Starting LSP over stdin/stdout
+I[18:17:52.962] <-- initialize(0)
+I[18:17:53.000] --> reply:initialize(0) 38 ms
+I[18:17:53.072] <-- initialized
+I[18:17:53.123] <-- textDocument/didOpen
+I[18:17:53.147] Loaded compilation database from /home/kaiykato/minnow/compile_commands.json
+I[18:17:53.148] --> window/workDoneProgress/create(0)
+I[18:17:53.148] Enqueueing 64 commands for indexing
+I[18:17:53.152] ASTWorker building file /home/kaiykato/minnow/src/router.cc version 1 with command 
+[/home/kaiykato/minnow/build/src]
+/usr/bin/c++ --driver-mode=g++ -I/home/kaiykato/minnow/util -I/home/kaiykato/minnow/src -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -o CMakeFiles/minnow_debug.dir/router.cc.o -c -resource-dir=/usr/lib/llvm-15/lib/clang/15.0.7 -- /home/kaiykato/minnow/src/router.cc
+I[18:17:53.188] <-- reply(0)
+I[18:17:53.188] --> $/progress
+I[18:17:53.188] --> $/progress
+I[18:17:53.197] --> textDocument/clangd.fileStatus
+I[18:17:53.856] <-- textDocument/documentSymbol(1)
+I[18:17:53.868] <-- textDocument/documentLink(2)
+I[18:17:53.868] <-- textDocument/inlayHint(3)
+I[18:17:54.029] --> $/progress
+I[18:17:54.030] --> $/progress
+I[18:17:54.030] --> $/progress
+I[18:17:54.350] <-- textDocument/semanticTokens/full(4)
+I[18:17:54.540] <-- $/cancelRequest
+I[18:17:54.541] <-- textDocument/documentSymbol(5)
+I[18:17:55.504] <-- $/cancelRequest
+I[18:17:55.505] <-- $/cancelRequest
+I[18:17:55.506] <-- textDocument/documentSymbol(6)
+I[18:17:55.539] <-- textDocument/documentLink(7)
+I[18:17:55.542] <-- $/cancelRequest
+I[18:17:55.552] <-- textDocument/documentLink(8)
+I[18:17:56.785] --> workspace/semanticTokens/refresh(1)
+I[18:17:56.785] --> textDocument/clangd.fileStatus
+I[18:17:56.786] --> textDocument/clangd.fileStatus
+I[18:17:56.788] <-- reply(1)
+I[18:17:57.089] --> textDocument/publishDiagnostics
+I[18:17:57.090] --> reply:textDocument/documentSymbol(1) 3233 ms, error: Task was cancelled.
+I[18:17:57.090] --> reply:textDocument/documentLink(2) 3222 ms, error: Task was cancelled.
+[Error - 6:17:57 PM] Request textDocument/documentSymbol failed.
+[object Object]
+I[18:17:57.092] --> reply:textDocument/inlayHint(3) 3224 ms
+I[18:17:57.094] --> reply:textDocument/semanticTokens/full(4) 2743 ms
+I[18:17:57.095] --> reply:textDocument/documentSymbol(5) 2554 ms, error: Task was cancelled.
+I[18:17:57.096] --> reply:textDocument/documentSymbol(6) 1589 ms
+I[18:17:57.096] --> reply:textDocument/documentLink(7) 1556 ms, error: Task was cancelled.
+I[18:17:57.096] --> reply:textDocument/documentLink(8) 1544 ms
+I[18:17:57.096] --> textDocument/clangd.fileStatus
+[Error - 6:17:57 PM] Request textDocument/documentLink failed.
+[object Object]
+[Error - 6:17:57 PM] Request textDocument/documentSymbol failed.
+[object Object]
+[Error - 6:17:57 PM] Request textDocument/documentLink failed.
+[object Object]
+I[18:17:57.802] Indexed /home/kaiykato/minnow/util/eventloop.cc (122 symbols, 12835 refs, 314 files)
+I[18:17:57.809] --> $/progress
+I[18:17:57.809] --> $/progress
+I[18:17:58.362] Indexed /home/kaiykato/minnow/util/tun.cc (132 symbols, 11416 refs, 294 files)
+I[18:17:58.369] --> $/progress
+I[18:17:58.369] --> $/progress
+I[18:17:59.082] Indexed /home/kaiykato/minnow/src/router.cc (59 symbols, 12798 refs, 312 files)
+I[18:17:59.088] --> $/progress
+I[18:17:59.088] --> $/progress
+I[18:17:59.700] Indexed /home/kaiykato/minnow/apps/bidirectional_stream_copy.cc (1 symbols, 12224 refs, 306 files)
+I[18:17:59.705] --> $/progress
+I[18:17:59.705] --> $/progress
+I[18:18:00.884] Indexed /home/kaiykato/minnow/apps/endtoend.cc (684 symbols, 18332 refs, 386 files)
+I[18:18:00.900] --> $/progress
+I[18:18:00.900] --> $/progress
+I[18:18:01.736] Indexed /home/kaiykato/minnow/apps/tcp_ipv4.cc (6 symbols, 14284 refs, 381 files)
+I[18:18:01.741] --> $/progress
+I[18:18:01.742] --> $/progress
+I[18:18:02.371] Indexed /home/kaiykato/minnow/tests/send_connect.cc (0 symbols, 12459 refs, 327 files)
+I[18:18:02.375] --> $/progress
+I[18:18:02.375] --> $/progress
+I[18:18:03.138] Indexed /home/kaiykato/minnow/util/tuntap_adapter.cc (6 symbols, 13938 refs, 355 files)
+I[18:18:03.143] --> $/progress
+I[18:18:03.143] --> $/progress
+I[18:18:03.707] Indexed /home/kaiykato/minnow/apps/iptest.cc (2 symbols, 11435 refs, 276 files)
+I[18:18:03.711] --> $/progress
+I[18:18:03.712] --> $/progress
+I[18:18:04.415] Indexed /home/kaiykato/minnow/util/tcp_over_ip.cc (2 symbols, 13658 refs, 342 files)
+I[18:18:04.420] --> $/progress
+I[18:18:04.420] --> $/progress
+I[18:18:04.958] Indexed /home/kaiykato/minnow/util/ipv4_header.cc (6 symbols, 12180 refs, 288 files)
+I[18:18:04.962] --> $/progress
+I[18:18:04.962] --> $/progress
+I[18:18:05.840] Indexed /home/kaiykato/minnow/util/tcp_minnow_socket.cc (0 symbols, 14143 refs, 383 files)
+I[18:18:05.845] --> $/progress
+I[18:18:05.845] --> $/progress
+I[18:18:06.421] Indexed /home/kaiykato/minnow/util/tcp_segment.cc (6 symbols, 11382 refs, 270 files)
+I[18:18:06.425] --> $/progress
+I[18:18:06.425] --> $/progress
+I[18:18:06.940] Indexed /home/kaiykato/minnow/apps/webget.cc (0 symbols, 11630 refs, 289 files)
+I[18:18:06.943] --> $/progress
+I[18:18:06.943] --> $/progress
+I[18:18:07.484] Indexed /home/kaiykato/minnow/util/file_descriptor.cc (14 symbols, 11493 refs, 283 files)
+I[18:18:07.489] --> $/progress
+I[18:18:07.489] --> $/progress
+I[18:18:08.042] Indexed /home/kaiykato/minnow/apps/tcp_native.cc (2 symbols, 11942 refs, 293 files)
+I[18:18:08.112] --> $/progress
+I[18:40:22.397] <-- textDocument/inlayHint(9)
+I[18:40:22.398] --> reply:textDocument/inlayHint(9) 0 ms
+I[18:40:22.398] --> textDocument/clangd.fileStatus
+I[18:46:55.388] <-- textDocument/inlayHint(10)
+I[18:46:55.388] --> reply:textDocument/inlayHint(10) 0 ms
+I[18:46:55.388] --> textDocument/clangd.fileStatus
+I[18:46:57.783] <-- textDocument/inlayHint(11)
+I[18:46:57.783] --> reply:textDocument/inlayHint(11) 0 ms
+I[18:46:57.783] --> textDocument/clangd.fileStatus

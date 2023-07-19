@@ -1,0 +1,35 @@
+[2023-05-21 00:06:58.481] [remoteagent] [info] Extension host agent started.
+[2023-05-21 00:06:58.828] [remoteagent] [info] [127.0.0.1][9d8979b4][ManagementConnection] New connection established.
+[2023-05-21 00:06:58.847] [remoteagent] [info] [127.0.0.1][938d5291][ExtensionHostConnection] New connection established.
+[2023-05-21 00:06:58.855] [remoteagent] [info] [127.0.0.1][938d5291][ExtensionHostConnection] <1403> Launched Extension Host Process.
+[2023-05-21 00:06:58.931] [remoteagent] [info] Deleted from disk ms-vscode.cmake-tools /home/kaiykato/.vscode-server/extensions/ms-vscode.cmake-tools-1.14.30
+[2023-05-21 00:06:58.931] [remoteagent] [info] Deleted from disk ms-vscode.cpptools /home/kaiykato/.vscode-server/extensions/ms-vscode.cpptools-1.14.5-linux-x64
+[2023-05-21 00:07:05.661] [remoteagent] [info] [127.0.0.1][9d8979b4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2023-05-21 00:07:05.673] [remoteagent] [info] [127.0.0.1][938d5291][ExtensionHostConnection] <1403> Extension Host Process exited with code: 0, signal: null.
+[2023-05-21 00:07:05.674] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2023-05-21 00:07:11.287] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2023-05-21 00:07:11.287] [remoteagent] [info] Cancelling previous shutdown timeout
+[2023-05-21 00:07:11.468] [remoteagent] [info] [127.0.0.1][a1381764][ManagementConnection] New connection established.
+[2023-05-21 00:07:11.587] [remoteagent] [info] [127.0.0.1][b344fb0a][ExtensionHostConnection] New connection established.
+[2023-05-21 00:07:11.597] [remoteagent] [info] [127.0.0.1][b344fb0a][ExtensionHostConnection] <1548> Launched Extension Host Process.
+[2023-05-21 00:12:11.289] [remoteagent] [info] New EH opened, aborting shutdown
+[2023-05-21 01:07:31.199] [remoteagent] [info] [127.0.0.1][b344fb0a][ExtensionHostConnection] The client has reconnected.
+[2023-05-21 01:07:36.534] [remoteagent] [info] [127.0.0.1][a1381764][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2023-05-21 01:07:36.536] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/kaiykato/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/server/node/server.main.js:143:7914)
+    at process.emit (node:events:390:28)
+[2023-05-21 01:11:19.155] [remoteagent] [info] [127.0.0.1][a1381764][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2023-05-21 01:11:19.156] [remoteagent] [info] [127.0.0.1][4f45b0c2][ManagementConnection] New connection established.
+[2023-05-21 01:11:19.245] [remoteagent] [info] [127.0.0.1][56c26093][ExtensionHostConnection] New connection established.
+[2023-05-21 01:11:19.254] [remoteagent] [info] [127.0.0.1][56c26093][ExtensionHostConnection] <11659> Launched Extension Host Process.
+[2023-05-21 01:16:19.250] [remoteagent] [info] [127.0.0.1][a1381764][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2023-05-21 01:16:19.321] [remoteagent] [info] [127.0.0.1][b344fb0a][ExtensionHostConnection] <1548> Extension Host Process exited with code: 0, signal: null.
+[2023-05-21 01:28:00.708] [remoteagent] [info] [127.0.0.1][56c26093][ExtensionHostConnection] The client has reconnected.
+[2023-05-21 01:28:05.584] [remoteagent] [info] [127.0.0.1][4f45b0c2][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2023-05-21 01:28:05.585] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/kaiykato/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/server/node/server.main.js:143:7914)
+    at process.emit (node:events:390:28)
+[2023-05-21 04:28:12.663] [remoteagent] [info] [127.0.0.1][4f45b0c2][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2023-05-21 04:28:14.671] [remoteagent] [info] [127.0.0.1][56c26093][ExtensionHostConnection] <11659> Extension Host Process exited with code: 0, signal: null.
+[2023-05-21 04:28:14.671] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2023-05-21 04:33:14.672] [remoteagent] [info] Last EH closed, shutting down

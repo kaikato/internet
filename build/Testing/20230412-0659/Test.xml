@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20230412-0659-Experimental"
+	Name="instance-1"
+	Generator="ctest-3.24.2"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="12.2.0"
+	OSName="Linux"
+	Hostname="instance-1"
+	OSRelease="5.19.0-1019-gcp"
+	OSVersion="#21-Ubuntu SMP Thu Mar 9 02:26:00 UTC 2023"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="85"
+	ProcessorCacheSize="33792"
+	NumberOfLogicalCPU="2"
+	NumberOfPhysicalCPU="1"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="7946"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2800.2"
+	>
+	<Testing>
+		<StartDateTime>Apr 12 06:59 UTC</StartDateTime>
+		<StartTestTime>1681282791</StartTestTime>
+		<TestList>
+			<Test>./compile_with_optimization</Test>
+			<Test>./byte_stream_speed_test</Test>
+			<Test>./reassembler_speed_test</Test>
+			<Test>./compile_with_bug-checkers</Test>
+			<Test>./byte_stream_capacity</Test>
+			<Test>./byte_stream_basics</Test>
+			<Test>./byte_stream_one_write</Test>
+			<Test>./byte_stream_two_writes</Test>
+			<Test>./byte_stream_stress_test</Test>
+			<Test>./reassembler_single</Test>
+			<Test>./reassembler_cap</Test>
+			<Test>./byte_stream_many_writes</Test>
+			<Test>./reassembler_holes</Test>
+			<Test>./reassembler_overlapping</Test>
+			<Test>./reassembler_win</Test>
+			<Test>./reassembler_dup</Test>
+			<Test>./reassembler_seq</Test>
+			<Test>./t_webget</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>compile with optimization</Name>
+			<Path>.</Path>
+			<FullName>./compile_with_optimization</FullName>
+			<FullCommandLine>/usr/bin/cmake "--build" "/home/kaiykato/build" "-t" "speed_testing"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>16.0672</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/cmake "--build" "/home/kaiykato/build" "-t" "speed_testing"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyllEFPwzAMhe/7Fb5w7Vi3IXFlEie4cZg0TVWaeKtp2lSxyxi/nnTQ0XVUwDhVkd/7/GJHXQFMrtZwV5M1VG5hsVyCS59RC9RCdrx4VDnek0UeN+fEVUIFvaGJDPmxMsYjc6R15EYrgHgAxV53SQWVpdv1WOleMGHxqIqWFw9F+yMvydBW6I8549k/uAHIjEVq0R9588tHuAmFxCBrT5W4L+RtQD5QmbdEFiWkwVLqld8337N0Kvim7cgERPktCvRljWhoT7/I61Vp3HFD05vLSex0jtKSZpMfL9xjqNZ1ct1TUSOZDkQUZOFuxs5mE64QTdJI+kvvltrsQ+/prEX3UfZaDJQ+W8z748FX1LWokAi+d7amk+mcSaMoGq2eMmKolBdwG5AMD7nB1VLVAjvF4LFwL2iAqdQIJKG7Dmb+EGfhH5A5axr35DqeHbpwtB69A7bGjdc=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>byte_stream_speed_test</Name>
+			<Path>.</Path>
+			<FullName>./byte_stream_speed_test</FullName>
+			<FullCommandLine>/home/kaiykato/build/tests/byte_stream_speed_test</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.65228</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/kaiykato/build/tests/byte_stream_speed_test</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>ByteStream with capacity=32768, write_size=1500, read_size=128 reached 0.53 Gbit/s.
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>reassembler_speed_test</Name>
+			<Path>.</Path>
+			<FullName>./reassembler_speed_test</FullName>
+			<FullCommandLine>/home/kaiykato/build/tests/reassembler_speed_test</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.962148</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/kaiykato/build/tests/reassembler_speed_test</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Exception: Reassembler did not close ByteStream when finished
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>compile with bug-checkers</Name>
+			<Path>.</Path>
+			<FullName>./compile_with_bug-checkers</FullName>
+			<FullCommandLine>/usr/bin/cmake "--build" "/home/kaiykato/build" "-t" "functionality_testing" "webget"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>43.3631</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/cmake "--build" "/home/kaiykato/build" "-t" "functionality_testing" "webget"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytk81uwjAQhO88xV56DZCA2l6L1FN76wEJocixF7IlsSPvppQ+fRNKwk8bhCinSPb4y+yMPQMY383hqaRMQJRfokBO1rp1LMhCdhkbTMplbwbD8FRYCmX77fsOTiMIBzuBqagwmU7BJe+oK3n1I+5PXtUKnylD7p8YYGVJ6AtNYMj3tctzZwOtA3cOWns7ZG69HpOUMR6ZW1R4PWpRbVSDsvZUiPMtss7kheyqIbIoIQ0ZJV75Tf3tnFU1589108pr8UOHf/b6j3SPB0g2gjGLR5U35qPhbXhxilmBvs05iv7BrYDMmCcZtiFH4+t788oat5/44rqOa4q6ajqsJ3q89PofZpcoJs2/It0t73yPrn8EQRD0Zm8pMRTKC7gFSIpbS+BKKUqBtWLwmLsPNMBkNQIJ4KdGNPwjTqtXlLrM1KeHg3AEtVMO5r1v7+qMsQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>byte_stream_capacity</Name>
+			<Path>.</Path>
+			<FullName>./byte_stream_capacity</FullName>
+			<FullCommandLine>/home/kaiykato/build/tests/byte_stream_capacity_sanitized</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0301144</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/kaiykato/build/tests/byte_stream_capacity_sanitized</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>byte_stream_basics</Name>
+			<Path>.</Path>
+			<FullName>./byte_stream_basics</FullName>
+			<FullCommandLine>/home/kaiykato/build/tests/byte_stream_basics_sanitized</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0382966</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/kaiykato/build/tests/byte_stream_basics_sanitized</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>byte_stream_one_write</Name>
+			<Path>.</Path>
+			<FullName>./byte_stream_one_write</FullName>
+			<FullCommandLine>/home/kaiykato/build/tests/byte_stream_one_write_sanitized</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.046764</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/kaiykato/build/tests/byte_stream_one_write_sanitized</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>byte_stream_two_writes</Name>
+			<Path>.</Path>
+			<FullName>./byte_stream_two_writes</FullName>
+			<FullCommandLine>/home/kaiykato/build/tests/byte_stream_two_writes_sanitized</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0485165</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/kaiykato/build/tests/byte_stream_two_writes_sanitized</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>byte_stream_stress_test</Name>
+			<Path>.</Path>
+			<FullName>./byte_stream_stress_test</FullName>
+			<FullCommandLine>/home/kaiykato/build/tests/byte_stream_stress_test_sanitized</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0662369</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/kaiykato/build/tests/byte_stream_stress_test_sanitized</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>reassembler_single</Name>
+			<Path>.</Path>
+			<FullName>./reassembler_single</FullName>
+			<FullCommandLine>/home/kaiykato/build/tests/reassembler_single_sanitized</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0615009</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/kaiykato/build/tests/reassembler_single_sanitized</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>reassembler_cap</Name>
+			<Path>.</Path>
+			<FullName>./reassembler_cap</FullName>
+			<FullCommandLine>/home/kaiykato/build/tests/reassembler_cap_sanitized</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0380128</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/kaiykato/build/tests/reassembler_cap_sanitized</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>byte_stream_many_writes</Name>
+			<Path>.</Path>
+			<FullName>./byte_stream_many_writes</FullName>
+			<FullCommandLine>/home/kaiykato/build/tests/byte_stream_many_writes_sanitized</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.136437</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/kaiykato/build/tests/byte_stream_many_writes_sanitized</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>reassembler_holes</Name>
+			<Path>.</Path>
+			<FullName>./reassembler_holes</FullName>
+			<FullCommandLine>/home/kaiykato/build/tests/reassembler_holes_sanitized</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.077848</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/kaiykato/build/tests/reassembler_holes_sanitized</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>reassembler_overlapping</Name>
+			<Path>.</Path>
+			<FullName>./reassembler_overlapping</FullName>
+			<FullCommandLine>/home/kaiykato/build/tests/reassembler_overlapping_sanitized</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0274439</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/kaiykato/build/tests/reassembler_overlapping_sanitized</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>reassembler_win</Name>
+			<Path>.</Path>
+			<FullName>./reassembler_win</FullName>
+			<FullCommandLine>/home/kaiykato/build/tests/reassembler_win_sanitized</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0471383</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/kaiykato/build/tests/reassembler_win_sanitized</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy9V9tS3EYQfTZfIePY4EttZiStNENhcwuEuAjlC7ETs7Zrrlh4WTDSwoJ/Pn3UeoiCKg958FaJ1Y5G3ae7T58elo6+hKQJdZMsX1czvhPLSTTVNPjExCZcJs2XUIekbsJFvba0lCRidO+3WdVUZlrd0qa68WtrF6a6XN++acLb5jKYs2fJm2DqOpzZabh8kVxXzZfEmQvjqubmeSroQ3bk6N6Wa6rz2VpSzepwSRg2licLXa5MFs5MFl4sn08WSo4/P5gsjJ8shPyJnqjJIujJwkq6SnqQYa3aoTvxFW/TVUwWkZaVoO8oj0aj0XKySU58WCS5TDNynt51ruGMrpwMkxNJ3yYla45+5x9OnjCqMN5nAG5M1gGCvDjaK+m3ajfQO/Z32hGBg/AEsmZop6AnnnDF0EOEXGR34UwWZSSrgOTj2Wa5TgZKNiDj0RlHr8o2NeQx/4tWiidPaY3cqYDn+yeEwOCKt/RH9dyOVQrP+V3P71/Ry5RvG27oj/uZzKXbgLNF7sM2mdaGY0YRJAASDEfrkVwLRa+LbI92eV5xGrCPOKVK9FDIVKEc47sovtPeiJTe//RuB4UkQ54TqdK3ZIxqY8dIBjJdoSgf4Wt0xPVD9k3+kIvivVQbSc+zEmlJnouhzCMmKZhs+JaIQhyQD7PLnqWdP2QOWIpOp0Q9R5UR5gQxf5/tH9xWVBEHEHYbAHrOdaGK5HhqqN3qua2by2p28pHQlHfRvCQL4dEKXI65D6SloMiwKFCe6xWU+hv5CIQrBDQOccWBHbTgiL5GN4SK3pKGFzwVQkfuEt1HJlWbFjWUFh8+g2koBoUpPSc/kGHvmDKojiRYnjx7c027BfrVXxGTlJ4+pqdoM/voPRdPuVdIKnqjT05dEAg9BMLF1UPqRV/ATo6IKffRcOtLCig4ToNyDLYtEn5YPecqoXNa7TAcATC64v6M9oNQRb9UIhtDrcQgmHzEtAb7Q85AoARA1qpC2blAtj1LiLRft7iCSJtH9DkYgvtbYP2Vq2UsMOs9pLqfnUy1AjqgoIHz7+Ime5D2ec1K4jNqD2uJlNIdfyTyajnjDvbKXOHukICEk654QlOJYr9Zx3kKtwPaiRfesB4i0y67RggPVlgOHRIAo5BL/ZLjDunb17ucJCG4nkiWFyzcaCujuTYgPfpfZ/0OzgpQVQ6I50Po8jOy5JnoKJHOP087eCnXXsFHZx8+scvnRUcu8fqakUKCbcHUae/TB5CFqj9XslIDzICesvKDni49ptcNC2hI825OdRREQ6HuICHSACKDpoAVyznLUvswZwtgt0Z/tTsKTMvsTpYKLduqDUgsRx4woiRXp1VojFCIGqSkSBkXFqA3KJVVb1anY86Fs6h6xnNY5N/vgz5bLLoqjT0kmSgkkAxILiJtB/kmQj4UpO9e01gzCJ8eCr/GZRMIWwTWNoUsGXuMtBkefChnxNSWneJhEOZ9hZPcPQNae4ZDBgwQUZzE3MS0pvRgjNnwC04H3dgHH+14/YTbDLqny29cAGkfH3JPYwwbecoDyfYlrhRpqyuDSit8p2U4wqQfKj5I+OzF1cEGU8mb922OiN7rYPXj06dMaN/JrzDTb+DVHshb9lynctw2zoC+Yrj7lZ0ukZBX9QHN8vIY41C/WmYq+Mjd+j/0719KVoCc6aC4Qsii+BOZxzzTmMO7PJRb4cdCcbq7ymSQMW4wP9HKwt1+YgtAB25BTU3O809Y7Oj3b5HnhOQJPskfs3ruXKjrOJ8mu4uL4BrD6Oh062lW//jT4jSYq1Andh4jncnD2UVzw2CXlv4B8F11Pu2Q8iod0JvzFvUPh/yMwDZJPJ/PfrxvJMWFC87Ef/2PM1r6G7AUPo8=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>reassembler_dup</Name>
+			<Path>.</Path>
+			<FullName>./reassembler_dup</FullName>
+			<FullCommandLine>/home/kaiykato/build/tests/reassembler_dup_sanitized</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.460554</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/kaiykato/build/tests/reassembler_dup_sanitized</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>reassembler_seq</Name>
+			<Path>.</Path>
+			<FullName>./reassembler_seq</FullName>
+			<FullCommandLine>/home/kaiykato/build/tests/reassembler_seq_sanitized</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.582082</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/kaiykato/build/tests/reassembler_seq_sanitized</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>t_webget</Name>
+			<Path>.</Path>
+			<FullName>./t_webget</FullName>
+			<FullCommandLine>/home/kaiykato/minnow/tests/webget_t.sh "/home/kaiykato/build"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.7347</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/kaiykato/minnow/tests/webget_t.sh "/home/kaiykato/build"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Function called: get_URL(cs144.keithw.org, /nph-hasher/xyzzy)
+GET /nph-hasher/xyzzy HTTP/1.1
+Host: cs144.keithw.org 
+Connection: close
+
+HTTP/1.1 200 OK
+Content-type: text/plain
+
+7SmXqWkrLKzVBCEalbSPqBcvs11Pw263K7x4Wv3JckI
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Apr 12 07:00 UTC</EndDateTime>
+		<EndTestTime>1681282835</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

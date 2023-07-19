@@ -1,0 +1,235 @@
+Start testing: Apr 28 07:04 UTC
+----------------------------------------------------------
+1/37 Testing: compile with bug-checkers
+1/37 Test: compile with bug-checkers
+Command: "/usr/bin/cmake" "--build" "/home/kaiykato/build" "-t" "functionality_testing" "webget"
+Directory: /home/kaiykato/build
+"compile with bug-checkers" start time: Apr 28 07:04 UTC
+Output:
+----------------------------------------------------------
+[  1%] Built target minnow_testing_debug
+[  4%] Built target util_debug
+[  5%] Building CXX object tests/CMakeFiles/minnow_testing_sanitized.dir/common.cc.o
+[ 10%] Built target minnow_debug
+Consolidate compiler generated dependencies of target util_sanitized
+[ 11%] Building CXX object util/CMakeFiles/util_sanitized.dir/address.cc.o
+[ 11%] Building CXX object util/CMakeFiles/util_sanitized.dir/file_descriptor.cc.o
+[ 11%] Linking CXX static library libminnow_testing_sanitized.a
+[ 11%] Built target minnow_testing_sanitized
+Consolidate compiler generated dependencies of target minnow_sanitized
+[ 12%] Building CXX object src/CMakeFiles/minnow_sanitized.dir/byte_stream.cc.o
+[ 12%] Building CXX object src/CMakeFiles/minnow_sanitized.dir/byte_stream_helpers.cc.o
+[ 13%] Building CXX object src/CMakeFiles/minnow_sanitized.dir/reassembler.cc.o
+[ 14%] Building CXX object util/CMakeFiles/util_sanitized.dir/random.cc.o
+[ 14%] Building CXX object src/CMakeFiles/minnow_sanitized.dir/tcp_receiver.cc.o
+[ 14%] Building CXX object util/CMakeFiles/util_sanitized.dir/socket.cc.o
+[ 15%] Building CXX object src/CMakeFiles/minnow_sanitized.dir/tcp_sender.cc.o
+[ 16%] Linking CXX static library libutil_sanitized.a
+[ 16%] Built target util_sanitized
+[ 16%] Building CXX object tests/CMakeFiles/byte_stream_basics.dir/byte_stream_basics.cc.o
+[ 16%] Building CXX object src/CMakeFiles/minnow_sanitized.dir/wrapping_integers.cc.o
+[ 17%] Linking CXX static library libminnow_sanitized.a
+[ 17%] Built target minnow_sanitized
+[ 17%] Building CXX object tests/CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o
+[ 19%] Linking CXX executable byte_stream_basics
+[ 19%] Built target byte_stream_basics
+[ 19%] Building CXX object tests/CMakeFiles/byte_stream_one_write_sanitized.dir/byte_stream_one_write.cc.o
+[ 20%] Linking CXX executable byte_stream_capacity
+[100%] Built target byte_stream_capacity
+[122%] Building CXX object tests/CMakeFiles/byte_stream_one_write.dir/byte_stream_one_write.cc.o
+Linking CXX executable byte_stream_one_write_sanitized
+Built target byte_stream_one_write_sanitized
+Building CXX object tests/CMakeFiles/byte_stream_two_writes_sanitized.dir/byte_stream_two_writes.cc.o
+Linking CXX executable byte_stream_one_write
+Built target byte_stream_one_write
+Building CXX object tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o
+Linking CXX executable byte_stream_two_writes
+Built target byte_stream_two_writes
+Building CXX object tests/CMakeFiles/byte_stream_many_writes_sanitized.dir/byte_stream_many_writes.cc.o
+Linking CXX executable byte_stream_two_writes_sanitized
+Built target byte_stream_two_writes_sanitized
+Building CXX object tests/CMakeFiles/byte_stream_many_writes.dir/byte_stream_many_writes.cc.o
+Linking CXX executable byte_stream_many_writes
+Linking CXX executable byte_stream_many_writes_sanitized
+Built target byte_stream_many_writes
+Building CXX object tests/CMakeFiles/byte_stream_stress_test_sanitized.dir/byte_stream_stress_test.cc.o
+Built target byte_stream_many_writes_sanitized
+Building CXX object tests/CMakeFiles/byte_stream_stress_test.dir/byte_stream_stress_test.cc.o
+Linking CXX executable byte_stream_stress_test
+Built target byte_stream_stress_test
+Building CXX object tests/CMakeFiles/reassembler_single_sanitized.dir/reassembler_single.cc.o
+Linking CXX executable byte_stream_stress_test_sanitized
+Built target byte_stream_stress_test_sanitized
+Building CXX object tests/CMakeFiles/reassembler_single.dir/reassembler_single.cc.o
+Linking CXX executable reassembler_single
+Built target reassembler_single
+Building CXX object tests/CMakeFiles/reassembler_cap_sanitized.dir/reassembler_cap.cc.o
+Linking CXX executable reassembler_single_sanitized
+Built target reassembler_single_sanitized
+Building CXX object tests/CMakeFiles/reassembler_cap.dir/reassembler_cap.cc.o
+Linking CXX executable reassembler_cap
+Built target reassembler_cap
+Building CXX object tests/CMakeFiles/reassembler_seq_sanitized.dir/reassembler_seq.cc.o
+Linking CXX executable reassembler_cap_sanitized
+Built target reassembler_cap_sanitized
+Building CXX object tests/CMakeFiles/reassembler_seq.dir/reassembler_seq.cc.o
+Linking CXX executable reassembler_seq
+Linking CXX executable reassembler_seq_sanitized
+Built target reassembler_seq
+Building CXX object tests/CMakeFiles/reassembler_dup_sanitized.dir/reassembler_dup.cc.o
+Built target reassembler_seq_sanitized
+Building CXX object tests/CMakeFiles/reassembler_dup.dir/reassembler_dup.cc.o
+Linking CXX executable reassembler_dup
+Built target reassembler_dup
+Building CXX object tests/CMakeFiles/reassembler_holes_sanitized.dir/reassembler_holes.cc.o
+Linking CXX executable reassembler_dup_sanitized
+Built target reassembler_dup_sanitized
+Building CXX object tests/CMakeFiles/reassembler_holes.dir/reassembler_holes.cc.o
+Linking CXX executable reassembler_holes
+Linking CXX executable reassembler_holes_sanitized
+Built target reassembler_holes
+Building CXX object tests/CMakeFiles/reassembler_overlapping_sanitized.dir/reassembler_overlapping.cc.o
+Built target reassembler_holes_sanitized
+Building CXX object tests/CMakeFiles/reassembler_overlapping.dir/reassembler_overlapping.cc.o
+Linking CXX executable reassembler_overlapping
+Built target reassembler_overlapping
+Building CXX object tests/CMakeFiles/reassembler_win_sanitized.dir/reassembler_win.cc.o
+Linking CXX executable reassembler_overlapping_sanitized
+Built target reassembler_overlapping_sanitized
+Building CXX object tests/CMakeFiles/reassembler_win.dir/reassembler_win.cc.o
+Linking CXX executable reassembler_win_sanitized
+Built target reassembler_win_sanitized
+Building CXX object tests/CMakeFiles/wrapping_integers_cmp_sanitized.dir/wrapping_integers_cmp.cc.o
+Linking CXX executable reassembler_win
+Built target reassembler_win
+Building CXX object tests/CMakeFiles/wrapping_integers_cmp.dir/wrapping_integers_cmp.cc.o
+Linking CXX executable wrapping_integers_cmp_sanitized
+Built target wrapping_integers_cmp_sanitized
+Building CXX object tests/CMakeFiles/wrapping_integers_wrap_sanitized.dir/wrapping_integers_wrap.cc.o
+Linking CXX executable wrapping_integers_cmp
+Built target wrapping_integers_cmp
+Building CXX object tests/CMakeFiles/wrapping_integers_wrap.dir/wrapping_integers_wrap.cc.o
+Linking CXX executable wrapping_integers_wrap_sanitized
+Built target wrapping_integers_wrap_sanitized
+Building CXX object tests/CMakeFiles/wrapping_integers_unwrap_sanitized.dir/wrapping_integers_unwrap.cc.o
+Linking CXX executable wrapping_integers_wrap
+Built target wrapping_integers_wrap
+Building CXX object tests/CMakeFiles/wrapping_integers_unwrap.dir/wrapping_integers_unwrap.cc.o
+Linking CXX executable wrapping_integers_unwrap_sanitized
+Linking CXX executable wrapping_integers_unwrap
+Built target wrapping_integers_unwrap_sanitized
+Building CXX object tests/CMakeFiles/wrapping_integers_roundtrip_sanitized.dir/wrapping_integers_roundtrip.cc.o
+Built target wrapping_integers_unwrap
+Building CXX object tests/CMakeFiles/wrapping_integers_roundtrip.dir/wrapping_integers_roundtrip.cc.o
+Linking CXX executable wrapping_integers_roundtrip
+Built target wrapping_integers_roundtrip
+Linking CXX executable wrapping_integers_roundtrip_sanitized
+Building CXX object tests/CMakeFiles/wrapping_integers_extra_sanitized.dir/wrapping_integers_extra.cc.o
+Built target wrapping_integers_roundtrip_sanitized
+Building CXX object tests/CMakeFiles/wrapping_integers_extra.dir/wrapping_integers_extra.cc.o
+Linking CXX executable wrapping_integers_extra
+Linking CXX executable wrapping_integers_extra_sanitized
+Built target wrapping_integers_extra
+Building CXX object tests/CMakeFiles/recv_connect_sanitized.dir/recv_connect.cc.o
+Built target wrapping_integers_extra_sanitized
+Building CXX object tests/CMakeFiles/recv_connect.dir/recv_connect.cc.o
+Linking CXX executable recv_connect
+Built target recv_connect
+Building CXX object tests/CMakeFiles/recv_transmit_sanitized.dir/recv_transmit.cc.o
+Linking CXX executable recv_connect_sanitized
+Built target recv_connect_sanitized
+Building CXX object tests/CMakeFiles/recv_transmit.dir/recv_transmit.cc.o
+Linking CXX executable recv_transmit
+Linking CXX executable recv_transmit_sanitized
+Built target recv_transmit
+Building CXX object tests/CMakeFiles/recv_window_sanitized.dir/recv_window.cc.o
+Built target recv_transmit_sanitized
+Building CXX object tests/CMakeFiles/recv_window.dir/recv_window.cc.o
+Linking CXX executable recv_window
+Built target recv_window
+Building CXX object tests/CMakeFiles/recv_reorder_sanitized.dir/recv_reorder.cc.o
+Linking CXX executable recv_window_sanitized
+Built target recv_window_sanitized
+Building CXX object tests/CMakeFiles/recv_reorder.dir/recv_reorder.cc.o
+Linking CXX executable recv_reorder
+Built target recv_reorder
+Linking CXX executable recv_reorder_sanitized
+Building CXX object tests/CMakeFiles/recv_reorder_more_sanitized.dir/recv_reorder_more.cc.o
+Built target recv_reorder_sanitized
+Building CXX object tests/CMakeFiles/recv_reorder_more.dir/recv_reorder_more.cc.o
+Linking CXX executable recv_reorder_more
+Built target recv_reorder_more
+Building CXX object tests/CMakeFiles/recv_close_sanitized.dir/recv_close.cc.o
+Linking CXX executable recv_reorder_more_sanitized
+Built target recv_reorder_more_sanitized
+Building CXX object tests/CMakeFiles/recv_close.dir/recv_close.cc.o
+Linking CXX executable recv_close
+Built target recv_close
+Building CXX object tests/CMakeFiles/recv_special_sanitized.dir/recv_special.cc.o
+Linking CXX executable recv_close_sanitized
+Built target recv_close_sanitized
+Building CXX object tests/CMakeFiles/recv_special.dir/recv_special.cc.o
+Linking CXX executable recv_special
+Built target recv_special
+Building CXX object tests/CMakeFiles/send_connect_sanitized.dir/send_connect.cc.o
+Linking CXX executable recv_special_sanitized
+Built target recv_special_sanitized
+Building CXX object tests/CMakeFiles/send_connect.dir/send_connect.cc.o
+Linking CXX executable send_connect_sanitized
+Built target send_connect_sanitized
+Building CXX object tests/CMakeFiles/send_transmit_sanitized.dir/send_transmit.cc.o
+Linking CXX executable send_connect
+Built target send_connect
+Building CXX object tests/CMakeFiles/send_transmit.dir/send_transmit.cc.o
+Linking CXX executable send_transmit
+Built target send_transmit
+Building CXX object tests/CMakeFiles/send_retx_sanitized.dir/send_retx.cc.o
+Linking CXX executable send_transmit_sanitized
+Built target send_transmit_sanitized
+Building CXX object tests/CMakeFiles/send_retx.dir/send_retx.cc.o
+Linking CXX executable send_retx
+Built target send_retx
+Building CXX object tests/CMakeFiles/send_window_sanitized.dir/send_window.cc.o
+Linking CXX executable send_retx_sanitized
+Built target send_retx_sanitized
+Building CXX object tests/CMakeFiles/send_window.dir/send_window.cc.o
+Linking CXX executable send_window
+Built target send_window
+Building CXX object tests/CMakeFiles/send_ack_sanitized.dir/send_ack.cc.o
+Linking CXX executable send_window_sanitized
+Built target send_window_sanitized
+Building CXX object tests/CMakeFiles/send_ack.dir/send_ack.cc.o
+Linking CXX executable send_ack
+Linking CXX executable send_ack_sanitized
+Built target send_ack
+Building CXX object tests/CMakeFiles/send_close_sanitized.dir/send_close.cc.o
+Built target send_ack_sanitized
+Building CXX object tests/CMakeFiles/send_close.dir/send_close.cc.o
+Linking CXX executable send_close
+Built target send_close
+Building CXX object tests/CMakeFiles/send_extra_sanitized.dir/send_extra.cc.o
+[ 11%] Linking CXX executable send_close_sanitized
+Built target send_close_sanitized
+Building CXX object tests/CMakeFiles/send_extra.dir/send_extra.cc.o
+Linking CXX executable send_extra
+Built target send_extra
+Building CXX object tests/CMakeFiles/byte_stream_basics_sanitized.dir/byte_stream_basics.cc.o
+Linking CXX executable send_extra_sanitized
+Built target send_extra_sanitized
+Building CXX object tests/CMakeFiles/byte_stream_capacity_sanitized.dir/byte_stream_capacity.cc.o
+Linking CXX executable byte_stream_basics_sanitized
+Built target byte_stream_basics_sanitized
+Linking CXX executable byte_stream_capacity_sanitized
+Built target byte_stream_capacity_sanitized
+Built target functionality_testing
+[ 62%] Built target minnow_debug
+[ 87%] Built target util_debug
+[100%] Built target webget
+<end of output>
+Test time =  99.91 sec
+----------------------------------------------------------
+Test Passed.
+"compile with bug-checkers" end time: Apr 28 07:05 UTC
+"compile with bug-checkers" time elapsed: 00:01:39
+----------------------------------------------------------
+
